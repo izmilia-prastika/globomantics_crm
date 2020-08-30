@@ -29,9 +29,9 @@ class Database:
             # import yaml
             # self.data = yaml.safe_load(handle)
 
-            import xmltodict
-            self.data = xmltodict.parse(handle.read())["root"]
-            print(self.data)
+            #import xmltodict
+            #self.data = xmltodict.parse(handle.read())["root"]
+            #print(self.data)
 
 
     def balance(self, acct_id):
